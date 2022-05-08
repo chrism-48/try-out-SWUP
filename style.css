@@ -1,8 +1,57 @@
+
+
 .transition-fade {
-    transition: 0.4s;
+    transition: .9s;
     opacity: 1;
 }
 
 html.is-animating .transition-fade {
     opacity: 0;
+}
+
+@font-face {
+    font-family: myFont1;
+    src: url("fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+a {
+    font-family: myFont2, Arial, Helvetica, sans-serif;
+    font-weight:100; 
+    color:grey:
+
+}
+
+a:hover {
+    
+    color:blue;
+}
+
+#myHome {
+    color:rgb(0, 0, 0);
+    font-family: myFont1, Arial, Helvetica, sans-serif;
+    font-size:23px;
+    line-height:32px;
+}
+
+#myAbout {
+    color:rgb(0, 0, 0);
+    font-family: myFont1, Arial, Helvetica, sans-serif;
+    font-size:23px;
+    line-height:32px;
+}
+
+#myPricing {
+    color:rgb(0, 0, 0);
+    font-family: myFont1, Arial, Helvetica, sans-serif;
+    font-size:23px;
+    line-height:32px;
+}
+
+h2 {
+    font-family: myFont2, Arial, Helvetica, sans-serif;  
 }
